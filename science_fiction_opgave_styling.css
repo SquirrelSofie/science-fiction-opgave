@@ -1,0 +1,57 @@
+.nav-item a{
+    color: rgb(170, 170, 170);
+}
+.nav-item a:hover{
+    color: white;
+}
+.nav-item a:active{
+    color: white;
+}
+.navbar-brand{
+    color: white !important;
+}
+.navbar{
+    background-color: black;
+}
+img{
+    width: 100%;
+}
+#front-div{
+    background: black;
+}
+.tekst-container{
+    background-color: black;
+}
+.tekst-container h1, p{
+    color: white;
+}
+#sc-link{
+    color: white !important;
+}
+@media screen and (min-width: 576px) {
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+}
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+    margin: 0 .5em;
+    height: 400px;
+    border: none;
+}
+#carouselExample{
+    background-color: black;
+}
+.carousel p{
+    color: black;
+}
+.nav{
+    background-color: black;
+}
